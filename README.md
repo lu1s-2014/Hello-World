@@ -1,6 +1,6 @@
 # Hello World!
 
-This is my very first project in github, it features a simple C++ program that prints the string "Hello, World!". It is composed of a library named ``` iostream ```, and it returns 0. Below shows how it is composed
+This is my very first project in github, it features a simple C++ program that prints the string "Hello, World!". It is composed of a library named ``` iostream ```, and it returns 0. Bellow shows how it is composed
 
 ``` cpp
 #include <iostream>
@@ -63,7 +63,7 @@ pacman -S mingw-w64-ucrt-x86_64-gcc
 
 4. Click New on the right side of the pop-up window.
 
-5. Paste the path: C:\msys2\ucrt64\bin
+5. Paste the path: `C:\msys2\ucrt64\bin`
 
 6. Click OK on all open windows to save the changes.
 
