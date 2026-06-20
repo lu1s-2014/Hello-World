@@ -24,6 +24,10 @@ brew install gcc
 
 ls /opt/homebrew/bin | grep g++
 ```
+Once finished, verify installation:
+``` sh
+g++ --version
+```
 Exception: If you dont have homebrew and you are using mac, you will need to install homebrew first by running this in your terminal:
 
 ``` sh
@@ -61,7 +65,7 @@ pacman -S mingw-w64-ucrt-x86_64-gcc
 
 5. Click OK on all open windows to save the changes.
 
-  Once you finished all of the installation steps on either mac or windows, run this command: 
+  Once you finished all of the installation, verify installation by running:
 
   ``` sh
   g++ --version
