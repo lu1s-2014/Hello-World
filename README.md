@@ -16,13 +16,24 @@ int main() {
 
 The ``` #include ``` keyword tells the computer to include a certain library, in this case, it is ``` iostream ```. Then we have the ``` main() ``` function, declared using the ``` int ``` keyword because it returns a integer at the end. Then comes the command ``` std::cout ``` (pronounced "see-out"), which means "standard character output". Then we have the <<, which means a stream of output. After that, we have the string ``` "Hello, World!" ```, which is what is being printed out as an output. Right next to that, we have ``` \n ```, which basicaly creates a new line. Finally, we have the ``` return 0; ``` command, which terminates a function and tells the program that the code finished without any errors.  
 
-## Running on the terminal
+## Install G++ if needed
 If you want to run this program in your local terminal, first check if g++ is installed, if not, you can install it by running this on mac:
 
 ``` sh
 brew install gcc 
 
 ls /opt/homebrew/bin | grep g++
+```
+Exception: If you dont have homebrew and you are using mac, you will need to install homebrew first by running this in your terminal:
+
+``` sh
+/bin/bash -c "$(curl -fsSL https://githubusercontent.com)"
+```
+⚠️ Critical Step: Once the installation finishes, paste this code bellow
+``` sh
+echo >> ~/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 But if you use windows, you will need to follow these steps instead: 
