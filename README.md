@@ -31,7 +31,7 @@ g++ --version
 Exception: If you dont have homebrew and you are using mac, you will need to install homebrew first by running this in your terminal:
 
 ``` sh
-/bin/bash -c "$(curl -fsSL https://githubusercontent.com)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 ⚠️ Critical Step: Once the installation finishes, paste this code bellow
 ``` sh
@@ -59,11 +59,13 @@ pacman -S mingw-w64-ucrt-x86_64-gcc
 
 2. Click the Environment Variables... button at the bottom right.
 
-3. Click New on the right side
+3. Select the variable named Path in the list, then click Edit....
 
-4. Paste the following path: `C:\msys2\ucrt64\bin`
+4. Click New on the right side of the pop-up window.
 
-5. Click OK on all open windows to save the changes.
+5. Paste the path: C:\msys2\ucrt64\bin
+
+6. Click OK on all open windows to save the changes.
 
   Once you finished all of the installation, verify installation by running:
 
