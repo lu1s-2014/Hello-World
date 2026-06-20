@@ -16,7 +16,7 @@ int main() {
 
 The ``` #include ``` keyword tells the computer to include a certain library, in this case, it is ``` iostream ```. Then we have the ``` main() ``` function, declared using the ``` int ``` keyword because it returns a integer at the end. Then comes the command ``` std::cout ``` (pronounced "see-out"), which means "standard character output". Then we have the <<, which means a stream of output. After that, we have the string ``` "Hello, World!" ```, which is what is being printed out as an output. Right next to that, we have ``` \n ```, which basicaly creates a new line. Finally, we have the ``` return 0; ``` command, which terminates a function and tells the program that the code finished without any errors.  
 
-## Install G++ if needed
+## Install G++ if needed (🍎MacOS)
 If you want to run this program in your local terminal, first check if g++ is installed, if not, you can install it by running this on mac:
 
 ``` sh
@@ -35,8 +35,8 @@ echo >> ~/.zprofile
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
-
-But if you use windows, you will need to follow these steps instead: 
+## Install G++ if needed (🪟Windows)
+If you use windows, you will need to follow these steps instead: 
 
 1. Go to <a href="https://msys2.org">msys2.org</a>
 2. Download the installer (named `"msys2-x86_64-20260611.exe"`)
